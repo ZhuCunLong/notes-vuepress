@@ -4,7 +4,8 @@
   "description": "personal static web page",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "docs:deploy": "deploy.sh"
   },
   "main": "index.js",
   "repository": "http://github.com/zhucunlong/notes-vuepress",
