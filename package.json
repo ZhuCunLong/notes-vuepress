@@ -1,0 +1,16 @@
+{
+  "name": "notes-vuepress",
+  "version": "v1.0.1",
+  "description": "personal static web page",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "main": "index.js",
+  "repository": "http://github.com/zhucunlong/notes-vuepress",
+  "author": "zhucunlong <814026231@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
