@@ -1,8 +1,28 @@
+console.log('666')
 module.exports = {
 	title: 'web-learning-notes',
 	description: 'Just playing around',
 	themeConfig: {
 		sidebar: [
+			{
+				title: 'JS',
+				collapsable: false,
+				children: [
+					'/JS/事件循环',
+					'/JS/JS array',
+					'/JS/post请求下载文件',
+					'/JS/关于函数中this指向的问题',
+					'/JS/正则表达式',
+					'/JS/防抖和节流',
+				]
+			},
+			{
+				title: 'CSS3',
+				collapsable: true,
+				children: [
+					'/CSS3/flex'
+				]
+			},
 			{
 				title: 'es6',
 				collapsable: true,
