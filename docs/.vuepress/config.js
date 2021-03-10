@@ -1,4 +1,3 @@
-console.log('666')
 module.exports = {
 	title: 'web-learning-notes',
 	description: 'Just playing around',
@@ -14,18 +13,23 @@ module.exports = {
 					'/JS/关于函数中this指向的问题',
 					'/JS/正则表达式',
 					'/JS/防抖和节流',
+					'/JS/dom事件',
+					'/JS/关于new关键字',
+					'/JS/JS创建对象与继承'
 				]
 			},
 			{
-				title: 'CSS3',
-				collapsable: true,
+				title: 'CSS',
+				collapsable: false,
 				children: [
-					'/CSS3/flex'
+					'/CSS/flex',
+					'/CSS/元素水平居中',
+					'/CSS/position'
 				]
 			},
 			{
 				title: 'es6',
-				collapsable: true,
+				collapsable: false,
 				children: [
 					'/es6/async-await',
 					'/es6/class',
@@ -34,6 +38,15 @@ module.exports = {
 					'/es6/let const var',
 					'/es6/Promise',
 					'/es6/require和import的区别',
+				]
+			},
+			{
+				title: 'vue',
+				collapsable: false,
+				children: [
+					'/vue/Vue生命周期',
+					'/vue/vue组件化实战',
+					'/vue/vue自定义指令'
 				]
 			}
 		],
