@@ -48,6 +48,13 @@ module.exports = {
 					'/vue/vue组件化实战',
 					'/vue/vue自定义指令'
 				]
+			},
+			{
+				title: '设计模式',
+				collapsable: false,
+				children: [
+					'/designPattern/观察者模式和订阅发布模式'
+				]
 			}
 		],
 		repo: 'zhucunlong/notes-vuepress'
